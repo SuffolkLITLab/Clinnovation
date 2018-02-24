@@ -468,7 +468,7 @@ a.anchor {
 		float:right;
 		width:22px;
 		height:16px;
-		background-image: url("images/link.png");
+		background-image: url("../images/link.png");
 		background-repeat: no-repeat;
 		background-position: center;
 }
