@@ -1,7 +1,12 @@
 <html>
 <head>
 	<title>LIT Bits</title>
+
 	<base href="https://suffolklitlab.github.io/clinnovation/2018/">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<link rel="apple-touch-icon" href="images/icon_300.png"/>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108858221-1"></script>
 	<script>
@@ -11,12 +16,9 @@
 
 	  gtag('config', 'UA-108858221-1');
 	</script>
-	<base href="https://suffolklitlab.github.io/clinnovation/2018/">
-	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-	<meta name="apple-mobile-web-app-capable" content="no" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<link rel="apple-touch-icon" href="images/seal.jpg"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="js/scripts.js"></script>
+
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="LIT Bits"/>
 	<meta property="og:description" content="Join Suffolk University's Law Clinical Programs and the Institute on Legal Innovation and Technology (LIT) for our
@@ -146,7 +148,7 @@ a.menu {
 }
 </style>
 </head>
-<body>
+<body onLoad="msg();">
 <div class="header">
 <div class="logo"><a href="http://www.suffolk.edu/law/"><img src="images/logo.png" ALT="Suffolk University" border="0"/></a></div>
 <div class="img_title">&nbsp;</div>
@@ -163,9 +165,8 @@ a.menu {
 </div>
 <div class="content">
 
-	<p style="background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;">
-		<a href="https://portalpro.suffolk.edu/forms3/Forms?v:=439" style="color:black">On-line Registration</a> $25 (public service waivers available)
-	</p>
+	<p id="msg" style="display:none;background:#ffe;padding:15px;border: solid 1px #888;margin-top:5px;text-align:center;"></p>
+
 <h1>LIT Bits</h1>
 After the conference, videos of the presentations along with their author's info will appear here. The following is an example of a similar format (6 min instead of 5) from the LIT Lab's <a href="http://suffolklitlab.org/team/#colarusso">David Colarusso</a>, presented at the <a href="https://www.lsc.gov/meetings-and-events/tech-conference">LSC's 2018 Innovations in Technology Conference</a>.
 <p><b>ProTip:</b> You can make the video fill your screen by clicking on the <i>full screen</i> button at the bottom right of the video.</p>
