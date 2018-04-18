@@ -1,5 +1,5 @@
 function msg() {
-  $('#msg').html("Join the conversation. Join our <a href=\"http://suffolklitlab.org/slack\" style=\"color:black\">Slack team</a>, then say \"Hi\" over in #Clinnovation_2018.");
+  $('#msg').html("Thank you for making our inaugural conference a success.");
   $('#msg').show();
   return true;
 }
